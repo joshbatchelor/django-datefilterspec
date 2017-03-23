@@ -23,9 +23,12 @@
         #changelist-filter a {
             display: inline;
         }
+        .vDateField {
+            width: 65px;
+        }
     </style>
     {% with choices.0 as i %}
-    <form method="GET" action="">
+    <form method="GET" action="" class="form-row">
         {{ spec.form.media }}
         {{ spec.form.as_p }}
         <p class="submit-row">
